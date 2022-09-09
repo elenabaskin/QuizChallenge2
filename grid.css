@@ -13,10 +13,19 @@ section {
 
 header {
   text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  background-color: #fbe4ff;
+  color: #6600ff;
 }
 
 form {
   display: grid;
+}
+
+label {
+  font-family: "Jost", sans-serif;
+  color: #6600ff;
 }
 
 .fname {
@@ -52,4 +61,10 @@ form {
   grid-column-start: 2;
   grid-row-end: 4;
   grid-column-end: 3;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  background-color: #fbe4ff;
+  color: #6600ff;
 }
