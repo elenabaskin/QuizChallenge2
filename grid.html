@@ -4,7 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="grid.css" />
     <title>Grid Form</title>
   </head>
-  <body></body>
+  <body>
+    <header>Sign Up Form</header>
+    <section>
+      <br />
+      <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" required />
+        <br />
+
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" required />
+
+        <br />
+
+        <label for="email">Email:</label>
+        <br />
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <label for="birthday">Birthday:</label>
+        <br />
+        <input type="date" id="birthday" name="birthday" required />
+
+        <br />
+        <label for="comment">Comment</label>
+        <br />
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+        <br />
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
 </html>
